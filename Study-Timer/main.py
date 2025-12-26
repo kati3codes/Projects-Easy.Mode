@@ -10,10 +10,10 @@ root.attributes('-topmost', True)
 root.title("Simple Timer")
 
 # Load Sound File
-sound = AudioSegment.from_file('/Users/work/Desktop/Python Projects/Study-Timer/finished-sound.mp3')
+sound = AudioSegment.from_file('/Users/work/Desktop/Python Projects/Projects-Easy.Mode/Study-Timer/finished-sound.mp3')
 
 # Load GIF Frames
-gif_file = '/Users/work/Desktop/Python Projects/Study-Timer/raccoon.gif'
+gif_file = '/Users/work/Desktop/Python Projects/Projects-Easy.Mode/Study-Timer/raccoon.gif'
 gif_frames = [tk.PhotoImage(file=gif_file, format='gif - {}'.format(i)) for i in range(10)]  # Adjust as needed
 gif_index = 0
 
