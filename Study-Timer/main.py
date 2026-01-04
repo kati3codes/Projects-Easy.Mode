@@ -7,7 +7,7 @@ from pydub.playback import play
 # Create Main Window
 root = tk.Tk()
 root.attributes('-topmost', True)
-root.title("Simple Timer")
+root.title("Study Timer 🦝")
 
 # Load Sound File
 sound = AudioSegment.from_file('/Users/work/Desktop/Python Projects/Projects-Easy.Mode/Study-Timer/finished-sound.mp3')
